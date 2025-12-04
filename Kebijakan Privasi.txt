@@ -1,0 +1,44 @@
+### **Kebijakan Privasi Aplikasi Screen Stream (Mirroring)**
+
+**1. Pendahuluan**
+
+Aplikasi Screen Stream (Mirroring) (SSM) adalah aplikasi yang memungkinkan pengguna untuk menampilkan layar komputer ke layar perangkat Android melalui jaringan TCP Wi-Fi lokal. Kami berkomitmen untuk menjaga privasi pengguna dan melindungi informasi yang Anda berikan saat menggunakan aplikasi ini.
+
+Kebijakan privasi ini menjelaskan bagaimana kami menangani data yang dikumpulkan saat Anda menggunakan aplikasi ini.
+
+**2. Jenis Data yang Dikumpulkan**
+
+Aplikasi ini tidak mengumpulkan data pribadi pengguna, seperti nama, email, atau informasi identitas lainnya.
+
+Namun, aplikasi ini memerlukan pengguna untuk memasukkan **alamat IP** dan **port server** untuk dapat melakukan koneksi antara perangkat Android dan komputer melalui jaringan TCP Wi-Fi lokal. Data ini hanya digunakan untuk proses mirroring layar dan tidak disimpan dalam aplikasi setelah sesi mirroring selesai.
+
+**3. Penggunaan Data**
+
+Alamat IP dan port server yang dimasukkan oleh pengguna hanya digunakan untuk tujuan teknis, yaitu untuk membuat koneksi antara perangkat Android dan komputer melalui jaringan lokal. Data ini tidak digunakan untuk tujuan lain dan tidak dikumpulkan atau disimpan di server kami.
+
+**4. Pembagian Data dengan Pihak Ketiga**
+
+Kami tidak membagikan, menjual, atau menyewakan data Anda kepada pihak ketiga. Aplikasi ini tidak melibatkan pihak ketiga dalam pengumpulan atau penggunaan data Anda.
+
+**5. Keamanan Data**
+
+Kami berusaha menjaga aplikasi ini tetap aman untuk digunakan. Namun, penting untuk dicatat bahwa **data yang dikirim melalui jaringan tidak terenkripsi**. Oleh karena itu, kami menyarankan pengguna untuk hanya menggunakan aplikasi ini di jaringan Wi-Fi lokal yang aman dan terpercaya untuk menghindari potensi risiko keamanan.
+
+**6. Hak Pengguna**
+
+Sebagai pengguna aplikasi ini, Anda memiliki hak untuk:
+
+* Tidak memberikan data pribadi kepada kami karena aplikasi ini tidak meminta data pribadi apa pun.
+* Menghentikan penggunaan aplikasi kapan saja.
+
+**7. Pembaruan Kebijakan Privasi**
+
+Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Setiap perubahan akan diumumkan di halaman ini dengan tanggal pembaruan yang baru. Pengguna disarankan untuk secara berkala memeriksa halaman ini untuk mengetahui perubahan terbaru.
+
+**8. Kontak**
+
+Jika Anda memiliki pertanyaan atau kekhawatiran mengenai kebijakan privasi ini atau penggunaan data dalam aplikasi, Anda dapat menghubungi kami melalui:
+
+Email: f3devsup@gmail.com
+
+---
