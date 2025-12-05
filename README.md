@@ -1,7 +1,8 @@
-Aplikasi client [SSM](https://play.google.com/store/apps/details?id=com.f3.labs.daydream.ssm) android dibuat menggunakan Engine kami. Tapi kode nativenya kurang lebih seperti di file `src/main.cpp`.
+Aplikasi client [SSM](https://play.google.com/store/apps/details?id=com.f3.labs.daydream.ssm) android dibuat menggunakan engine kami. Tapi kode nativenya kurang lebih seperti di file `src/main.cpp`.
 
 ---
 
+# Server Script
 Kode script python untuk menjalankan server screen mirror (jalankan scriptnya di komputer yang ingin di mirror):
 ```
 import socket
