@@ -41,7 +41,6 @@ def handle_input(conn):
                 print("Client Disconnected?")
                 break
             
-            print(f"{data}")
             buffer = data.decode();
             skip = True
             while '\n' in buffer:
@@ -105,7 +104,6 @@ def start_server():
         while True:
             conn, addr = sock.accept()
             print(f"Connected from {addr}")
-            client_connected = True
             handle_client(conn)
 
 if __name__ == '__main__':
