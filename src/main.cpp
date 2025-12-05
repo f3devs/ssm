@@ -149,7 +149,7 @@ void receiveLoop() {
 
 // ======================= Touch Handler ========================
 
-void handleTouch(float x, float y) {
+void sendTouch(float x, float y) {
     char msg[128];
     snprintf(msg, 128, "{\"disconnect\":false,\"x\":%d,\"y\":%d}", (int)x, (int)y);
     send(sockfd, msg, strlen(msg), 0);
@@ -176,6 +176,7 @@ void android_main(struct android_app* app) {
 
     app->onInputEvent = [](android_app* app, AInputEvent* event) {
     	if (sockfd > 0) {
+			/// handle touch screen
 		    if (AInputEvent_getType(event) == AINPUT_EVENT_TYPE_MOTION &&
 		        AMotionEvent_getAction(event) == AMOTION_EVENT_ACTION_DOWN) {
 		        float x = AMotionEvent_getX(event, 0);
@@ -187,7 +188,7 @@ void android_main(struct android_app* app) {
 		            int desktopX = (int) ((x - offsetX) / (ANativeWindow_getWidth(window) - (offsetX * 2)) * serverWidth);
 		            int desktopY = (int) (y / ANativeWindow_getHeight(window) * serverHeight);
 		            // Kirim desktopX, desktopY ke server
-		            handleTouch(desktopX, desktopY);
+		            sendTouch(desktopX, desktopY);
 		        }
 
 		        return 1;
