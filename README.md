@@ -1,8 +1,8 @@
-Aplikasi client SSM android dibuat menggunakan Engine kami. Tapi kurang lebih kode nativenya seperti itu.
+Aplikasi client SSM android dibuat menggunakan Engine kami. Tapi kode nativenya kurang lebih seperti di file `src/main.cpp`.
 
 ---
 
-Berikut kode script python untuk menjalankan server:
+Kode script python untuk menjalankan server:
 ```
 import socket
 import struct
@@ -113,3 +113,7 @@ def start_server():
 if __name__ == '__main__':
     start_server()
 ```
+
+
+Untuk menjalankan server install `python` dan dependensi yang diperlukan.
+Lalu jalankan script dengan perintah `python nama_file_script.py` atau `python3 nama_file_script.py`
