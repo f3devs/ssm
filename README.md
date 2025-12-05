@@ -2,7 +2,7 @@ Aplikasi client SSM android dibuat menggunakan Engine kami. Tapi kurang lebih ko
 
 ---
 
-Berikut script kode python untuk menjalankan server:
+Berikut kode script python untuk menjalankan server:
 ```
 import socket
 import struct
