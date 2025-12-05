@@ -2,7 +2,7 @@ Aplikasi client [SSM](https://play.google.com/store/apps/details?id=com.f3.labs.
 
 ---
 
-Kode script python untuk menjalankan server:
+Kode script python untuk menjalankan server screen mirror (jalankan scriptnya di komputer yang ingin di mirror):
 ```
 import socket
 import struct
